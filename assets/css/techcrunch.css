@@ -1,0 +1,584 @@
+*{
+    box-sizing: border-box;
+}
+
+.header-left{
+    float: left;
+    width: 60%;
+}
+
+.header-right{
+    float: right;
+    width: 40%;
+    padding-top: 30px;
+}
+
+.font-awesome button{
+    background: rgba(211, 211, 211, .3);
+    border: none;
+}
+
+.hide, .hidden-header, .show-at-640{
+    display: none;
+}
+
+.font-awesome{
+    padding-bottom: 20px;
+    
+}
+
+/* .push-left{
+    padding-right: 30px;
+} */
+
+.header-left img{
+    float: left;
+    width: 60%;
+    padding-left: 20px;
+}
+
+.header-right img{
+    width: 200px;
+
+}
+
+.messageus{
+    height: 30px;
+
+
+}
+.header-left section{
+    float:left;
+    width: 33.3333%;
+}
+
+.header-left p{
+    float:left;
+    width: 100%;
+}
+
+.header-left nav{
+    float:right;
+    width: 100%;
+}
+
+.header-left button{
+    border: none;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+
+header li{
+    font-size: 15px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+nav ul{
+    padding: 0;;
+}
+
+.search-container button, .subscribe-button button{
+    float: left;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+.email{
+    float: left;
+}
+
+
+.search-container input{
+    float: left;
+}
+
+.search-container {
+    overflow: auto;
+    float: right;
+    width: 100%;
+    padding-left: 25rem;
+}
+
+button, .search-container> button{
+    background: none;
+}
+
+
+.green{
+    color: rgb(2, 179, 2);
+    font-weight: bold;
+}
+
+.header-left section p{
+    color: gray;
+}
+
+.header-right section{
+    float: right;
+    padding-top: 20px;
+    padding-right: 50px;
+
+}
+
+.tenth-annual{
+    background: rgb(2, 92, 2);
+    color: white;
+    text-align: center;
+
+}
+
+.tenth-annual span{
+    font-weight: bold;
+}
+
+
+.subscribe-button button{
+    background: rgb(4, 175, 4);
+}
+.main{
+    float: left;
+    width: 70%;
+    overflow: auto;
+    padding-left: 10px;
+    border-bottom: 20px solid gray;
+}
+
+.gray{
+    color: lightgrey;
+}
+
+.aside h6{
+    clear: both;
+}
+
+.main-left{
+    float: left;
+    width: 70%;
+}
+
+.main-left p, h3, .tip{
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 0;
+
+}
+
+.main-right{
+    float: right;
+    width: 26%;
+    padding-left: 10px;
+}
+
+.main-right img{
+    float: left;
+    width: 30%;
+}
+
+.main-right section{
+    float: right;
+    width: 70%;
+    padding-left: 10px;
+}
+
+h4{
+    font-size: 16px;
+}
+
+.main-right article{
+    height: 100px;
+}
+
+.main-right article p{
+    font-style: italic;
+    color: lightgray;
+}
+
+
+
+p, h4{
+    margin:0;
+}
+
+
+.aside{
+    float: right;
+    width: 30%;
+    background: rgba(211, 211, 211, .5);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 10px solid gray;
+    height: 480px;
+}
+
+.tip{
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+h5{
+    background: rgb(3, 72, 3);
+    color: white;
+    text-align: center;
+    font-weight: 500px;
+    padding: 5px 0;
+
+}
+
+.aside section ~ section{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: white;
+    border-bottom: 1px solid rgba(128, 128, 128, .5);
+    padding-left: 10px;
+}
+
+.aside input ~ span{
+    color: rgb(153, 151, 151);
+    padding-left: 15px;
+
+}
+
+.aside form{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.subscribe{
+    background: rgb(4, 175, 4);
+    padding-left: 0;
+    margin-left: 0;
+
+}
+
+.subscribe a{
+    text-decoration: none;
+    color: white;
+}
+
+h6{
+    text-align: center;
+}
+
+h6 a{
+    text-decoration: none;
+}
+
+
+@media (max-width: 2020px)   {
+
+
+    .search-container {
+        padding-left: 18rem;
+    }
+
+}
+
+
+@media (max-width: 1765px){
+.search-container {
+    padding-left: 10rem;
+}
+}
+
+
+@media (max-width: 1765px){
+    .search-container {
+        padding-left: 7rem;
+    }
+    }
+
+@media (max-width: 1348px){
+        .search-container {
+            padding-left: 4rem;
+        }
+
+    .subscribe-button input{
+
+        width: 10rem;
+
+    }
+
+    .header-right img {
+        width: 8rem;
+    }
+
+}
+
+    
+
+@media (max-width: 1280px)   {
+
+    .main-right article {
+        height: 100px;
+        float: left;
+        width: 50%;
+    }
+
+    .main-right{
+        float: left;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 2rem;
+    }
+
+}
+
+@media (max-width: 1235px){
+    .search-container {
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 1218px){
+.aside {
+
+    overflow: auto;
+    height: auto;
+}
+}
+
+
+
+
+@media (max-width: 1087px)   {
+    .search-container{
+        display: none;
+    }
+
+    .aside{
+    overflow: auto;
+    height: auto;
+    }
+
+}
+
+
+@media (max-width: 1084px)   {
+
+    .subscribe-button input {
+        width: 9rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px)   {
+    .tenth-annual, .search-container, .regular-header{
+        display: none;
+    }
+
+    .header-right {
+        float: right;
+        width: 40%;
+    }
+
+    .aside{
+        float: left;
+        width: 100%;
+
+    }
+
+    .header-left nav {
+        float: left;
+        width: 117%;
+    }
+
+    .main{
+        border: none;
+        width:100%;
+    }
+
+    .aside form {
+        padding-left: 24rem;
+        padding-top: 10px;
+    }
+
+    .main-right{
+        width: 100%;
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+    }
+
+
+    .main-left {
+        float: left;
+        padding-top: 1rem;
+        padding-left: 5rem;
+        width: 100%;
+        background: rgba(211, 211, 211, .5);
+    }
+
+    .line{
+        border-top: 1px solid lightgray;
+    }
+
+    header{
+        border-bottom: none;
+    }
+
+    .font-awesome span{
+        display: none;
+    }
+
+
+    .main-left img{
+        width: 90%;
+    }
+
+    .hidden-header{
+        display: block;
+        padding: 2rem 0;
+    }
+
+    .hidden-header section{
+        float: left;
+        width: 33.3333%;
+    }
+
+
+    .hide{
+        display: block;
+        font-size: 3rem;
+        padding-left: 3rem;
+
+    }
+
+
+}
+
+
+@media (max-width: 900px){
+    .aside form {
+        padding-left: 20rem;
+        padding-top: 10px;
+    }
+
+}
+
+@media (max-width: 820px){
+    .aside form {
+    padding-left: 18rem;
+
+}
+}
+
+
+
+
+@media (max-width: 768px){
+    .font-awesome span, .regular-header{
+        display: none;
+    }
+
+    .aside form {
+        padding-left: 16rem;
+    }
+
+    .main-left{
+        padding-left: none;
+    }
+
+    .main-left img{
+        width: 90%;
+    }
+
+    .hidden-header{
+        display: block;
+        padding: 2rem 0;
+    }
+
+    .hidden-header section{
+        float: left;
+        width: 33.3333%;
+    }
+
+
+    .hide{
+        display: block;
+        font-size: 3rem;
+        padding-left: 3rem;
+
+    }
+
+    .dropbtn, .crunchbase{
+        display: none;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 758px)   {
+
+    .aside form {
+        padding-left: 16rem;
+    }
+
+    .main-right article {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .header-right section {
+        padding-top: 20px;
+        padding-right: 0;
+    }
+
+    header .font-awesome{
+        display: none;
+    }
+
+    .show-at-640{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 651px)   {
+.aside form {
+    padding-left: 12rem;
+}
+
+}
+
+@media (max-width: 522px)   {
+    .aside form {
+        padding-left: 9rem;
+    }
+    
+    }
+    
+
+@media (max-width: 522px)   {
+        .aside form {
+            padding-left: 6rem;
+        }
+        
+        }
+        
+
+
+@media (max-width: 475px)   {
+
+    .email {
+        float: left;
+        width: 46%;
+    }
+
+
+
+}
